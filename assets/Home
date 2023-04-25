@@ -1,0 +1,8 @@
+--HOME--
+
+local Tab = Window:NewTab("Home")
+local Section = Tab:NewSection(" Status: Upadated")
+local Section = Tab:NewSection("Version 0.1")
+local Section = Tab:NewSection("Created on: ?")
+local Section = Tab:NewSection("Last Update: ?")
+local Section = Tab:NewSection("Created by ramsonware")

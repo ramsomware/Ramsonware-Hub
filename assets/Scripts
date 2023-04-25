@@ -1,0 +1,38 @@
+--SCRIPTS--
+
+local Tab = Window:NewTab("Scripts")
+local Section = Tab:NewSection("T-Titans Battlegrounds")
+Section:NewButton("Hitbox + INF Ammo + No Cooldown", "Does not work on all characters. Best on Starlight.", function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/RA2Z4x75"))()
+	print("Executed. Enjoy!")
+end)
+
+local Section = Tab:NewSection("Bedwars")
+Section:NewButton("Vape V4", "", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+	print("Executed. Enjoy!")
+end)
+
+local Section = Tab:NewSection("Arsenal")
+Section:NewButton("Dark Hub", "KEY NEEDED.", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+    print("Executed. Enjoy!")
+end)
+Section:NewButton("Project Evolution V4", "", function()
+  loadstring(game:HttpGet("https://projectevo.xyz/v4/script.lua", true))();
+    print("Clicked")
+end)
+Section:NewButton("Project Validus", "", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Robobo2022/script/main/Project-Validus.lua"))()
+    print("Clicked")
+end)
+Section:NewButton("Owl Hub", "Heads up! This script has not been verified. Use at your own risk!", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+    print("Clicked")
+end)
+
+local Section = Tab:NewSection("Da Hood")
+Section:NewButton("Ray X", "Heads up! This script has not been verified. Use at your own risk!", function()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
+    print("Clicked")
+end)
